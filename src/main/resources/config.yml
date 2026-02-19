@@ -1,0 +1,19 @@
+# DiscordStatusPlugin 設定ファイル
+
+# Discord Bot Token
+# Discord Developer Portal (https://discord.com/developers/applications) で取得してください
+bot-token: "YOUR_BOT_TOKEN_HERE"
+
+# 変更対象のDiscordチャンネルID
+# チャンネルIDはDiscordで開発者モードを有効にして、チャンネルを右クリック → IDをコピーで取得できます
+channel-id: "YOUR_CHANNEL_ID_HERE"
+
+# サーバー起動時に設定するチャンネル名
+# 使用可能な文字: 英小文字、数字、ハイフン (Discord の制限)
+online-channel-name: "🟢サーバーオンライン"
+
+# サーバー停止時に設定するチャンネル名
+offline-channel-name: "🔴サーバーオフライン"
+
+# チャンネル名変更時の理由 (Discordの監査ログに表示)
+audit-log-reason: "Minecraft Server Status Update"
